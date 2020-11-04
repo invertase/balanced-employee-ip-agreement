@@ -1,6 +1,6 @@
 # Balanced Employee IP Agreement (BEIPA)
 
-A UK and Open Source friendly Balanced Employee IP Agreement -  providing a balanced approach to assigning control of intellectual property (IP) created by an employee.
+A English law and Open Source friendly Balanced Employee IP Agreement -  providing a balanced approach to assigning control of intellectual property (IP) created by UK company employees.
 
 
 `TODO: Description & Authors`
