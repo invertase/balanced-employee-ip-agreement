@@ -1,4 +1,4 @@
-# Balanced Employee Intellectual Property Agreement {{VERSION}}
+# Balanced Employee Intellectual Property Agreement
 
 This BALANCED EMPLOYEE INTELLECTUAL PROPERTY AGREEMENT is between the person named below and 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ (the "Company") incorporated and registered in England and Wales with
