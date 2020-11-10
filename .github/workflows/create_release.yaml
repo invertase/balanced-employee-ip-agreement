@@ -42,11 +42,11 @@ jobs:
           asset_name: 'Agreement.pdf'
           asset_content_type: application/pdf
       - name: Attach Markdown to Release
-          uses: actions/upload-release-asset@v1
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            upload_url: ${{ steps.create_release.outputs.upload_url }}
-            asset_path: 'Balanced_Employee_IP_Agreement.md'
-            asset_name: 'Agreement.md'
-            asset_content_type: text/markdown
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: 'Balanced_Employee_IP_Agreement.md'
+          asset_name: 'Agreement.md'
+          asset_content_type: text/markdown
