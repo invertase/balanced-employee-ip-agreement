@@ -19,7 +19,7 @@ jobs:
         uses: shrink/actions-document-publish@v1
         id: make_document
         with:
-          sources: 'Balanced_Employee_IP_Agreement.md'
+          sources: 'AGREEMENT.md'
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
@@ -47,6 +47,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: 'Balanced_Employee_IP_Agreement.md'
+          asset_path: 'AGREEMENT.md'
           asset_name: 'Agreement.md'
           asset_content_type: text/markdown
